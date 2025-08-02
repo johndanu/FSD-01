@@ -1,0 +1,19 @@
+{
+  "name": "fsdb01",
+  "version": "1.0.0",
+  "description": "Here all our class work we do...",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Danushan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.0"
+  }
+}
