@@ -19,7 +19,7 @@ exports.getSingleProduct = (req, res) => {
 
 exports.editProduct = (req, res) => {
     console.log(new Date())
-    res.send("Product get is working")
+    res.send("Getting product is working")
 }
 
 exports.deleteProduct = (req, res) => {
