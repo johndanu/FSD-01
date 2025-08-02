@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.render('index', {
-        title: 'About page'
+        title: 'About page of John'
     })
 })
 
