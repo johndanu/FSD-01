@@ -1,9 +1,10 @@
 const mongoose = require('mongoose');
 
 
-//  const Cat = mongoose.model('Cat', { name: String });
-
-
 exports.Product = mongoose.model('Product', {
-    name: String,
+    name: {
+        type: String,
+        minlength: [3, 'Product name must be at least 3 letters long'],
+        trim: true
+    },
 })

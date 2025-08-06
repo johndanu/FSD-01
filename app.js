@@ -11,7 +11,7 @@ mongoose.connect('mongodb+srv://john:GHlSts3qpFXRdv3R@cluster0.gbqnvph.mongodb.n
 const productRoutes = require('./routes/product')
 const logger = require('./middleware/logger')
 
-
+app.use(express.json())
 
 app.set('view engine', 'ejs')
 app.set('views', './views')
